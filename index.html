@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
+    <title>Ask Unc</title>
     <meta name="comp1800 template" content="My 1800 App">
 
     <!-- Required meta tags -->
@@ -15,10 +15,151 @@
 
 <body>
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
+ <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ask Unc</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Profile</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+    <main>
+      <div class="container py-4"> <!-- containter -->
+        <header class="pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">           </svg>
+            <span class="fs-4">Ask Anything</span>
+          </a>
+        </header>
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Find posts from people with experience</h1>
+            <p class="col-md-8 fs-4">
+                Check out some of our user's posts and responses from people who have been helped.
+            </p>
+            <button class="btn btn-primary btn-lg" type="button">
+              Find Posts
+            </button>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Login or Sign up</h2>
+              <p>
+                Easily login with google or create an account to get started in less than a minute.
+              </p>
+              <button class="btn btn-outline-light" type="button">
+                Login / Sign up
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+              <h2>About Us</h2>
+              <p>
+                Ask Unc is an app designed to help you through any difficult problems, sometimes you need to aquire wisdom rather than knowledge.
+              </p>
+              <button class="btn btn-outline-secondary" type="button">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+    <div class="container my-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/hike3.jpg" class="card-img-top" alt="..."> <!--Example photo since user profile photos don't yet exist-->
+
+            <div class="card-body">
+              <h5 class="card-title">Why you should stay in school</h5>
+              <p class="card-text">
+                When I was 23 years old I had a dream to have my own construction company, and I didn't think I'd need a psychology degree for that. But I went on to finish my 4 years and the degree benefitted me more than I realized. When I was finally successful I realized how much of my time at school was preparing me for my endeavours in life.
+              </p>
+            </div>
+        
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2 days ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/hike3.jpg" class="card-img-top" alt="..."> <!--Example photo since user profile photos don't yet exist-->
+
+            <div class="card-body">
+              <h5 class="card-title">Why you should stay in school</h5>
+              <p class="card-text">
+                When I was 23 years old I had a dream to have my own construction company, and I didn't think I'd need a psychology degree for that. But I went on to finish my 4 years and the degree benefitted me more than I realized. When I was finally successful I realized how much of my time at school was preparing me for my endeavours in life.
+              </p>
+            </div>
+        
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2 days ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/hike3.jpg" class="card-img-top" alt="..."> <!--Example photo since user profile photos don't yet exist-->
+
+            <div class="card-body">
+              <h5 class="card-title">Why you should stay in school</h5>
+              <p class="card-text">
+                When I was 23 years old I had a dream to have my own construction company, and I didn't think I'd need a psychology degree for that. But I went on to finish my 4 years and the degree benefitted me more than I realized. When I was finally successful I realized how much of my time at school was preparing me for my endeavours in life.
+              </p>
+            </div>
+        
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2 days ago</small>
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- Copy additional .col blocks to add more cards -->
+
+</div>
+
+
+
+        <footer class="pt-3 mt-4 text-body-secondary border-top">
+          © 2026
+        </footer>
+      </div>
+    </main>
+
+
+    
+   <!-- <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Ask Unc</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav> -->
 
 
     <!---------------------------------------------->
@@ -26,7 +167,7 @@
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
